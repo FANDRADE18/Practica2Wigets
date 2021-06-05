@@ -14,7 +14,6 @@
         android:layout_marginTop="16dp"
         android:text="@string/check1"
         android:textColor="#4A4444"
-        app:buttonTint="#E81313"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +26,6 @@
         android:layout_marginTop="24dp"
         android:text="@string/check2"
         android:textColor="#4A4444"
-        app:buttonTint="#62E818"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
@@ -40,7 +38,6 @@
         android:layout_marginTop="24dp"
         android:text="@string/check3"
         android:textColor="#4A4444"
-        app:buttonTint="#2023DA"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
@@ -52,7 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:text="@string/btn1"
-        app:backgroundTint="#E31818"
+        app:backgroundTint="#03A9F4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.05"
         app:layout_constraintStart_toStartOf="parent"
@@ -74,8 +71,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/rd1"
-            android:textColor="#4A4444"
-            app:buttonTint="#F13131" />
+            android:textColor="#4A4444" />
 
         <RadioButton
             android:id="@+id/radioButton2"
@@ -83,16 +79,14 @@
             android:layout_height="wrap_content"
             android:checked="true"
             android:text="@string/rd2"
-            android:textColor="#4A4444"
-            app:buttonTint="#22DF0D" />
+            android:textColor="#4A4444" />
 
         <RadioButton
             android:id="@+id/radioButton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/rd3"
-            android:textColor="#4A4444"
-            app:buttonTint="#2129D1" />
+            android:textColor="#4A4444" />
     </RadioGroup>
 
     <Spinner
@@ -101,7 +95,7 @@
         android:layout_width="235dp"
         android:layout_height="32dp"
         android:layout_marginTop="16dp"
-        android:background="#724DFA"
+        android:background="#03A9F4"
         android:dropDownWidth="match_parent"
         android:entries="@array/spin1"
         android:fadeScrollbars="false"
